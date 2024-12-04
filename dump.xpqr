@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Biodata</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background:gray;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            color:white;
+            margin: 0;
+            padding: 0;
+        }
+       
+        ul{
+            margin: 0;
+            padding: 0;
+         list-style-type: none;   
+        }
+        li{
+            display: inline;
+            margin: 5px;
+        }
+
+       .features{
+        background: white;
+        color: black;
+        padding: 20px;
+        display: flex;
+        flex-direction:row;
+       }
+      section{
+        background-size: 200px;
+      }
+       footer{
+        background: black;
+        padding: 10px 20px;
+       }
+       a{
+        text-decoration: underline;
+       }
+       a:hover{
+        text-decoration: none;
+        background: beige;
+        color: black;
+       }
+    </style>
+   
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li class="logo"><a href="index.html">Artisan Bakery Logo</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <h1>Home yall</h1>
+    </nav>
+    </header>
+    <section class="features">
+    <figure>
+        <img src="images/pizza-400x400.jpg" alt="nice pizza">
+        <figcaption>nice pizza</figcaption>
+    </figure>
+    <figure>
+        <img src="images/dough-400x400.jpg" alt="good dough">
+        <figcaption>goodough</figcaption>
+    </figure>
+     <figure>
+        <img src="images/roti-400x400.jpg" alt="roti good">
+        <figcaption>bread</figcaption>
+    </figure>
+    </section>
+    <section>lower-section</section>
+    <footer>footer</footer>
+</body>
+</html>
